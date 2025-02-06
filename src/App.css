@@ -1,0 +1,99 @@
+*
+{
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", serif;
+  box-sizing: border-box;
+}
+
+.container
+{
+  width: 100vw;;
+  height: 100vh;
+  background-color: #7CADEC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper
+{
+  background-color: white;
+  padding: 10px;
+}
+.form
+{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+ display: flex;
+ justify-content: space-between;
+
+
+}
+.form:focus
+{
+  
+  outline-color: #7CADEC;
+}
+
+input
+{
+  font-size: 18px;
+  border: none;
+}
+input:focus 
+{
+  outline:none;
+}
+button
+{
+ 
+  background-color: white;
+  border: none;
+}
+.fa-search
+{
+  color: #4d75aa;
+  cursor: pointer;
+  font-size: 18px;
+}
+.fa-search:hover{
+  color:#7CADEC;
+ 
+}
+.data
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.details
+{
+  margin: 40px 10px 10px 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.d1,.d2
+{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.fa-droplet,.fa-wind
+{
+  font-size: 25px;
+  color: #4d75aa;
+}
+h2{
+  font-size: 18px;
+}
+h1{
+  color: #4d75aa;
+}
+
