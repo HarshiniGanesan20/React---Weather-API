@@ -1,4 +1,5 @@
 import '../App.css';
+import { getCLS, getFID, getLCP } from 'web-vitals';
 import { useState } from 'react';
 import axios from 'axios';
 import humiImg from "../img/humidity.png";
